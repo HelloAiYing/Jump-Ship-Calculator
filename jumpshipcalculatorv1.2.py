@@ -30,7 +30,7 @@ def compare_offers(coypay, coyal, coybonus, coyflexi, nowpay, nowal, nowbonus, n
         st.error(f"Increment is {increment:.2f}%. Definitely not worth considering.")
 
 # Streamlit UI
-st.title("Job Offer Comparison")
+st.title("AY's Jump Ship Calculator (Job Offer Comparison)")
 
 st.subheader("Enter details for the new company's offer:")
 coypay = st.number_input("New company's basic pay (per month):", min_value=0.0, step=1000.0)
